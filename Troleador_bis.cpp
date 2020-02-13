@@ -11,10 +11,10 @@ int devuelve_longitud(char palabra[]){
 }
 
 int main(){
-    //Definición de variables
+    //DefiniciÃ³n de variables
     char palabra[10];
     char vocales[]={'a','e','i','o','u'};
-    int cont,nvocales,cont2,vocal=0,numvocales;
+    int cont,nvocales,cont2,vocal=0,nvocales;
     char salir;
     std::cout<<"Escriba una palabra ";
     std::cin>>palabra;
